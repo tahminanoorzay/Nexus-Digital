@@ -1,7 +1,9 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #000000;
+  /* background-color: #000000; */
+  background-color: #ffffff;
+
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 
   color: #f0ffff;
@@ -21,10 +23,13 @@ body {
 nav {
   text-align: center;
   border-bottom: 4px solid #ff6b35;
+  background-color: #000000;
 }
 h2 {
   font-size: 2rem;
   letter-spacing: 2px;
+  margin: 0;
+  padding: 20px;
 }
 nav h2::after {
   content: "Digital";
@@ -39,7 +44,7 @@ nav h2::after {
   display: flex;
   background-color: #1a1a1a;
   margin: auto;
-  width: 90%;
+  width: 70%;
   justify-content: center;
   margin-bottom: 20px;
 }
@@ -62,6 +67,7 @@ nav a:hover {
   text-align: center;
   padding: 80px;
   border-bottom: 15px solid #ff6b35;
+  background-color: #000000;
 }
 
 .hero .firstP {
@@ -105,5 +111,17 @@ nav a:hover {
 }
 .hero .sBtn:hover {
   background-color: #f0ffff;
+  color: #000000;
+}
+/* About */
+.about {
+  /* background-color: #ffffff; */
+}
+
+.mainH1 {
+  text-align: center;
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  letter-spacing: 4px;
   color: #000000;
 }
