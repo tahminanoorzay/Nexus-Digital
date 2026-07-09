@@ -2,7 +2,8 @@ body {
   margin: 0;
   padding: 0;
   background-color: #000000;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
   color: #f0ffff;
 }
 
@@ -31,7 +32,7 @@ nav h2::after {
   color: #ff6b35;
   display: block;
   font-size: small;
-  letter-spacing: 4px;
+  letter-spacing: 8px;
   margin: 10px;
 }
 .nav-links {
@@ -50,4 +51,59 @@ nav a {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 0.9rem;
+}
+nav a:hover {
+  background-color: #ff6b35;
+  color: #000000;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 80px;
+  border-bottom: 15px solid #ff6b35;
+}
+
+.hero .firstP {
+  color: #ff6b35;
+  font-weight: 300;
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.hero h1 {
+  font-size: 4rem;
+}
+.hero i {
+  color: #e7e5e5;
+  display: block;
+  font-size: 1.1rem;
+  margin-bottom: 50px;
+}
+.hero .fBtn,
+.hero .sBtn {
+  padding: 20px 50px;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.hero .fBtn {
+  color: #f0ffff;
+  background-color: #ff6b35;
+}
+.hero .fBtn:hover {
+  background-color: #000000;
+  border: 3px solid #ff6b35;
+  color: #ff6b35;
+}
+.hero .sBtn {
+  border: 3px solid #f0ffff;
+  color: #f0ffff;
+}
+.hero .sBtn:hover {
+  background-color: #f0ffff;
+  color: #000000;
 }
