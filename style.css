@@ -212,3 +212,26 @@ hr {
 .sCard strong {
   font-size: 3rem;
 }
+
+/* Performance */
+.Performance {
+  border-bottom: 6px solid #ff6b35;
+}
+table {
+  padding: 50px 100px;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 20px;
+  text-align: left;
+}
+th {
+  background-color: #000000;
+  color: #ffffff;
+}
+td {
+  color: #000000;
+  border-bottom: 2px solid #e7dede;
+}
