@@ -125,18 +125,18 @@ nav a:hover {
 }
 .about {
   border-bottom: 6px solid #000000;
-  margin-bottom: 100px;
 }
-.about hr {
+hr {
   width: 100px;
   height: 5px;
   background-color: #ff6b35;
   border: none;
 }
 .aboutCards {
-  padding: 50px 300px;
+  padding: 0 100px;
+  margin: 100px 0;
   display: flex;
-  gap: 30px;
+  gap: 15px;
 }
 .aCard1,
 .aCard2 {
@@ -165,7 +165,6 @@ nav a:hover {
 }
 .about .aCard2 p {
   border-bottom: 2px solid #2a2a2a;
-  padding: 5px;
 }
 .about .aCard2 p:hover {
   color: #ff6b35;
