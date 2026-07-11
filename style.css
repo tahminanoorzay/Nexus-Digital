@@ -217,9 +217,15 @@ hr {
 .Performance {
   border-bottom: 6px solid #ff6b35;
 }
+.table-container {
+  padding: 30px;
+  margin: 40px 120px 70px 120px;
+  border: 3px solid #000000;
+  background-color: #ffffff;
+}
 table {
-  padding: 50px 100px;
-  width: 100%;
+  width: 90%;
+  margin: auto;
 }
 
 th,
@@ -234,4 +240,9 @@ th {
 td {
   color: #000000;
   border-bottom: 2px solid #e7dede;
+  font-weight: bold;
+}
+tr:hover td {
+  background-color: #ff6b35;
+  color: #ffffff;
 }
